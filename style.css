@@ -8,7 +8,7 @@ header {
 .fixed-header {
     width: 100%;
     position: fixed;
-    background: grey;
+    background:#696969;
     padding: 10px 10% 1%;
     color: white;
 }
@@ -62,21 +62,21 @@ main > img {
 }
 
 #fillertext {
-    background: white;
+    background: #ffffff;
     overflow-y: auto;
-    min-width: 250px;
-    height: 325px;
+    width: 450px;
+    height: 300px;
     margin-top: 5px;
     margin-bottom: -50px;
 }
 
 button {
-    margin-left: 52%;
+    margin: 0% 42% 0%;
     padding: .5% 2% .5%;
 }
 
 footer {
-    background: grey;
+    background:#696969;
     margin: 2% 0% 0%;
     border: 0;
     padding: 5%;
