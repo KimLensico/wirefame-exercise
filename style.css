@@ -1,17 +1,40 @@
+@import "reset.css";
+
+
+/* header */
+
 header {
     background: grey;
-    margin: -1% -1% 2%;
+    padding: 0px;
+    margin: 0px -1% 2%;
     color: white;
     position: fixed;
+    display: block;
 }
 
-.fixed-header {
+header:first-child {
     width: 100%;
     position: fixed;
+    margin: 0% 0% 0%;
     background:#696969;
     padding: 10px 10% 1%;
     color: white;
 }
+
+header > img {
+    padding: 0% 10px 0%;
+}
+
+nav {
+    margin: 0% 20px 0%;
+    padding: 25px 0% 0% 0px;
+}
+
+nav > a {
+    padding: 0% 5% 0%;
+    font-size: 20px;
+}
+
 
 a:link, a:visited {
     color:white;
@@ -24,56 +47,59 @@ a:active, a:hover {
     font-family: Calibri;
 }
 
-#icon {
-    padding-top: 1%;
+/* body */
+
+h2 {
+    font-family: calibri;
+    font-size: 25px;
+    margin: 0% 50px 0px;
+    padding-left: 450px;
+}
+
+body:great-grandchild {
+    padding-top: 5%;
     padding-left: 8%;
 }
 
-nav {
-    margin: 0% 20% 0%;
-    padding: 2% 0% 0% 0px;
-}
-
-nav > a {
-    padding: 0% 5% 0%;
-    font-size: 20px;
-    display: inline;
-}
-
 main {
-    margin: 0% 17% 1%;
+    margin: 100px 2% 1%;
     border: 0px 0px 0px;
-    padding: 15px 0px 0px;
+    padding: 0% 0px 0px;
     font-family: Calibri;
 }
 
-#hero {
-    margin: 10% 0% 0px;
-    border: 0px 0px 0px;
-    padding: 0px 0px 0px;
+main:nth-child(2), main:nth-child(3), main:nth-child(4) {
+    margin: 0px 0% 0%;
+    padding: 0% 50px 0%;
 }
 
-main > img {
-    padding: 2% 1% 0%;
+main > img:first-of-type {
+    margin: 125px 0px 20px;
 }
 
-#leftimg {
-    padding-right: 2%;
+main > img:last-of-type {
+margin-right: 25px;
 }
 
 #fillertext {
     background: #ffffff;
     overflow-y: auto;
-    width: 450px;
+    width: 350px;
     height: 300px;
-    margin-top: 5px;
-    margin-bottom: -50px;
+    margin: 5px 500px 5%;
+    padding: 0% 0px 0px;
 }
 
 button {
-    margin: 0% 42% 0%;
+    margin: -50px 42px 0%;
     padding: .5% 2% .5%;
+    width: 150px;
+    color: white;
+    background: black;
+
 }
+
+/* footer */
 
 footer {
     background:#696969;
